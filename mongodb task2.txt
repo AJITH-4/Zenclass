@@ -1,0 +1,378 @@
+1.Users
+
+{
+    id:"1",
+    name: "Ajith",
+    email: "ajith@gmail.com",
+    mentorname: 'Nagarajan'
+},
+{
+    id:"2",
+    name: "Naveen",
+    email: "naveen@gmail.com",
+    mentorname: 'Nagarajan'
+},
+{
+    id:"3",
+    name: "Gokul",
+    email: "gokul@gmail.com",
+    mentorname: 'Nagarajan'
+},{
+    id:"4",
+    name: "Raja",
+    email: "raja@gmail.com",
+    mentorname: 'SaiMohan'
+},
+{
+    id:"5",
+    name: "Priya",
+    email: "priya@gmail.com",
+    mentorname: 'Nagarajan'
+},
+{
+    id:"6",
+    name: "mani",
+    email: "mani@gmail.com",
+    mentorname:'SaiMohan'
+},
+{
+    id:"7",
+    name: "Rajesh",
+    email: "rajesh@gmail.com",
+    mentorname: 'Nagarajan'
+},
+{
+    id:"8",
+    name: "Kani",
+    email: "kani@gmail.com",
+    mentorname: 'Nagarajan'
+},
+{
+    id:"9",
+    name: "Naveen",
+    email: "naveen@gmail.com",
+    mentorname: 'SaiMohan'
+},
+{
+    id:"10",
+    name: "Praveen",
+    email: "praveen@gmail.com",
+    mentorname: 'Nagarajan'
+},
+
+
+2.codekata
+{
+    id: '1',
+    problems_solved: 10
+  },
+  {
+   id: '2',
+    problems_solved: 20
+  },
+  {
+    id: '3',
+    problems_solved: 30,
+  },
+  {
+    id: '4',
+    problems_solved: 40
+  },
+  {
+    id: '5',
+    problems_solved: 50,
+  },
+ {
+    id: '6',
+    problems_solved: 60,
+  },
+ {
+    id: '7',
+    problems_solved: 70,
+  },
+ {
+    id: '8',
+    problems_solved: 80,
+  },
+ {
+    id: '9',
+    problems_solved: 90,
+  },
+ {
+    id: '10',
+    problems_solved: 100,
+  },
+
+3.Attendance
+
+{
+   id: '1',
+   topic_id: 1,
+   present: true
+  },
+  {
+    id: '2',
+   topic_id: 2,
+   present: true
+  },
+  {
+    id: '3',
+   topic_id: 3,
+   present: false
+  },
+  {
+    id: '4',
+   topic_id: 4,
+   present: false
+  },
+  {
+    id: '5',
+   topic_id: 5,
+   present: true
+  },
+  {
+    id: '6',
+   topic_id: 6,
+   present: true
+  },
+  {
+    id: '7',
+   topic_id: 7,
+   present: true
+  },
+  {
+    id: '8',
+   topic_id: 8,
+   present: false
+  },
+  {
+    id: '9',
+   topic_id: 9,
+   present: true
+  },
+  {
+    id: '10',
+   topic_id: 10,
+   present: true
+  },
+
+4.Topic
+
+{
+    topic_id: 1,
+    topic: "HTML",
+    topic_date: new Date("2020-10-03")
+  },
+  {
+    topic_id: 2,
+    topic: "CSS",
+    topic_date: new Date("2020-10-05")
+  },
+  {
+    topic_id: 3,
+    topic: "Javascript",
+    topic_date: new Date("2020-10-08")
+  },
+  {
+    topic_id: 4,
+    topic: "React",
+    topic_date: new Date("2020-10-09")
+  },
+  {
+    topic_id: 5,
+    topic: "NodeJs",
+    topic_date: new Date("2020-10-15")
+  },
+  {
+    topic_id: 6,
+    topic: "ExpressJs",
+    topic_date: new Date("2020-10-17")
+  },
+  {
+    topic_id: 7,
+    topic: "mongodb",
+    topic_date: new Date("2020-10-19")
+  },
+  {
+    topic_id: 8,
+    topic: "Sql",
+    topic_date: new Date("2020-10-23")
+  },
+  {
+    topic_id: 9,
+    topic: "Angularjs",
+    topic_date: new Date("2020-10-26")
+  },
+  {
+    topic_id: 10,
+    topic: "AWS",
+    topic_date: new Date("2020-10-28")
+  }
+
+5.Task
+
+{
+    task_id: 1,
+    topic_id: 1,
+    id: '1',
+    task: "HTML task",
+    due_date: new Date("2020-10-05"),
+    submitted: true
+  },
+  {
+    task_id: 2,
+    topic_id: 2,
+    id: '2',
+    task: "CSS task",
+    due_date: new Date("2020-10-06"),
+    submitted: true
+  },
+  {
+    task_id: 3,
+    topic_id: 3,
+    id: '3',
+    task: "Javascript task",
+    due_date: new Date("2020-10-09"),
+    submitted: false
+  },
+  {
+    task_id: 4,
+    topic_id: 4,
+    id: '4',
+    task: "React task",
+    due_date: new Date("2020-10-12"),
+    submitted: false
+  },
+  {
+    task_id: 5,
+    topic_id: 5,
+    id: '5',
+    task: "Node task",
+    due_date: new Date("2020-10-15"),
+    submitted: false
+  },
+ {
+    task_id: 6,
+    topic_id: 6,
+    id: '6',
+    task: "Express task",
+    due_date: new Date("2020-10-17"),
+    submitted: true
+  },
+ {
+    task_id: 7,
+    topic_id: 7,
+    id: '7',
+    task: "mongodb",
+    due_date: new Date("2020-10-19"),
+    submitted: true
+  },
+ {
+    task_id: 8,
+    topic_id: 8,
+    id: '8',
+    task: "Sql",
+    due_date: new Date("2020-10-23"),
+    submitted: true
+  },
+ {
+    task_id: 9,
+    topic_id: 9,
+    id: '9',
+    task: "Angularjs",
+    due_date: new Date("2020-10-25"),
+    submitted: false
+  },
+ {
+    task_id: 10,
+    topic_id: 10,
+    id: '10',
+    task: "AWS",
+    due_date: new Date("2020-10-28"),
+    submitted: true
+  }
+
+6.company_drives
+
+  {
+    user_name: 'Ajith',
+    drive_date: new Date("2020-10-05"),
+    company_name: "Google"
+  },
+  {
+   user_name:'naveen',
+    drive_date: new Date("2020-10-10"),
+    company_name: "Amazon"
+  },
+  {
+   user_name:'gokul',
+    drive_date: new Date("2020-10-20"),
+    company_name: "Walmart"
+  },
+  {
+   user_name:'priya',
+    drive_date: new Date("2020-10-15"),
+    company_name: "Zoho"
+  },
+  {
+   user_name:'mani',
+    drive_date: new Date("2020-10-30"),
+    company_name: "Dell"
+  },
+ {
+  user_name:'Raja',
+    drive_date: new Date("2020-10-05"),
+    company_name: "Google"
+  },
+  {
+   user_name:'praveen',
+    drive_date: new Date("2020-10-10"),
+    company_name: "Amazon"
+  },
+  {
+   user_name:'Rajesh',
+    drive_date: new Date("2020-10-20"),
+    company_name: "Walmart"
+  }
+
+
+7.Mentor
+
+{
+    mentor_id: 1,
+    mentor_name: "Nagaraj",
+    mentor_email: "nagaraj@gmail.com"
+  },
+  {
+    mentor_id: 2,
+    mentor_name: "Sathish",
+    mentor_email: "sathish@gmail.com"
+  },
+  {
+    mentor_id: 3,
+    mentor_name: "Saimohan",
+    mentor_email: "saimohan@gmail.com"
+  }
+
+QUESTIONS;
+1.Find all the topics and tasks which are thought in the month of October
+ANS=>db.task.find({due_date:{$gte:new Date("2020-10-01"),$lte:new Date("2020-10-31")}})
+
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+ANS=>db.company_drives.find({drive_date:{$gte:new Date("2020-10-15"),$lte:new Date("2020-10-31")}})
+
+3.Find all the company drives and students who are appeared for the placement.
+ANS=>db.company_drives.find({})
+
+4.Find the number of problems solved by the user in codekata
+ANS=>db.codekata.find({})
+
+5.Find all the mentors with who has the mentee's count more than 15
+ANS=>db.mentor.find({No_of_users:{$gt:15}})
+
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+ANS=>db.task.find({$and:[{submitted:true},{due_date:{$gte:new Date("2020-10-15"),$lte:new Date("2020-10-31")}}]})
+
+
+
+
